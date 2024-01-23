@@ -10,7 +10,7 @@ app.use(cors());
 
 const port = process.env.PORT || 6500;
 
-app.get("/fakeApi", (req, res) => {
+app.get("/", (req, res) => {
     
     res.send(data)
     });
